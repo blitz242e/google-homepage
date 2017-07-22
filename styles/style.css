@@ -1,10 +1,19 @@
 * {
-	font-family: arial;
+	font-family: arial, sans-serif;
 }
 
 img.logo {
 	display: block;
 	margin: 20px auto;
+	margin-top: 100px;
+}
+
+.buttons {
+	display: block;
+    text-align: -webkit-center;
+    border: 0;
+    box-shadow: none;
+    background-color: white;
 }
 
 input.search_box {
@@ -13,10 +22,35 @@ input.search_box {
 	width: 500px;
 	height: 30px;
 	font-size: 1.25em;
+	outline: none;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+	border: none;
+}
+
+input.search_box:hover {
+	box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.08);
+}
+
+input.search_box:focus {
+	box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.08);
 }
 
 p.hunger {
 	text-align: center;
+	margin-top: 10px;
+	font-size: 16px;
+}
+
+#google_search, #feeling_lucky {
+	background-color: #f2f2f2;
+	height: 36px;
+    line-height: 27px;
+    border: none;
+    font-size: 13px;
+    font-weight: bold;
+    color: #757575;
+    padding: 0 16px;
+    margin-top: 11px;
 }
 
 .link {
