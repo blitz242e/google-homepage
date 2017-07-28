@@ -17,14 +17,15 @@ img.logo {
     box-shadow: none;
     background-color: white;
     outline: none;
+    line-height: 36px;
 }
 
 input.search_box {
 	display: block;
-	margin: 0px auto;
-	width: 500px;
-	height: 30px;
-	font-size: 1.25em;
+	margin: 12px auto;
+	width: 580px;
+	height: 45px;
+	font-size: 1em;
 	outline: none;
 	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
 	border: none;
@@ -41,20 +42,22 @@ input.search_box:focus {
 
 p.hunger {
 	text-align: center;
-	margin-top: 10px;
+	margin-top: 15px;
 	font-size: 16px;
 }
 
 #google_search, #feeling_lucky {
 	background-color: #f2f2f2;
-	height: 36px;
+	height: 60px;
     line-height: 27px;
     border: none;
     font-size: 13px;
     font-weight: bold;
     color: #757575;
-    padding: 0 16px;
-    margin-top: 11px;
+    padding: 12px 16px;
+    margin-top: 20px;
+    margin: 2px;
+    text-decoration: none;
 }
 
 #google_search:hover, #feeling_lucky:hover {
@@ -90,7 +93,6 @@ img.grid:hover {
 
 #gmail:hover, #images:hover {
 	text-decoration: underline;
-	vertical-align: middle;
 }
 
 div.navi {
@@ -99,4 +101,71 @@ div.navi {
     font-size: 13px;
     text-align: right;
     margin: 16px;
+}
+
+
+
+#sign_in {
+	display: inline-block;
+	background-color: #4285f4;
+	vertical-align: middle;
+	text-decoration: none;
+    border: 0;
+    box-shadow: none;
+    outline: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 28px;
+    padding: 0 12px;
+    border-radius: 2px; 
+    margin-right: 10px;
+    margin-left: 4px;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+  display: block;
+  line-height: 40px;
+  min-width: 980px;
+}
+
+#span_left {
+    font-size: 13px;
+    text-align: left;
+}
+
+#span_right {
+    font-size: 13px;
+    text-align: right;
+    float: right;
+}
+
+#privacy, #terms, #settings {
+	color: #666;
+	text-decoration: none;
+	margin: 0px;
+	padding-right: 27px;
+	display: inline;
+}
+
+#privacy:hover, #terms:hover, #settings:hover {
+    text-decoration: underline;
+}
+
+#advertising, #business, #about {
+	color: #666;
+	text-decoration: none;
+	margin: 0px;
+	padding-left: 27px;
+	display: inline;
+}
+
+#advertising:hover, #business:hover, #about:hover {
+	text-decoration: underline;
 }

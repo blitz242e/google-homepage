@@ -6,6 +6,7 @@
     	<link rel="stylesheet" type="text/css" href="styles/style.css">
     	<meta charset="utf-8">
     	<title>Google</title>
+
     </head>
 
 	<body>
@@ -18,22 +19,43 @@
 
         <img src="images/apps_grid.png" alt="apps grid" class="grid">
 
-        <input type="button" name="sign_in" value="Sign in" id="sign_in">
+        <a id="sign_in" href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/webhp%3Fhl%3Den526sa%3DX%26ved%3D0ahUKEwjxj73ZsKjVAhWphlQKHWA6AiAQPAgD" target="_top">Sign in</a>
       </div>
 
 	<!--logo-->
 		<img src="images/googlelogo.png" alt="Google logo" class="logo">
 	
 	<!--search bar-->
-		<input type="text box" name="search_box" class="search_box">
+		<input type="text box" name="search_box" class="search_box" spellcheck="true">
 		<br>
+
 	<!--buttons-->
 	  <div class="buttons">
-		<input type="button" name="google_search" value="Google Search" id="google_search">
-		<input type="button" name="google_search" value="I'm Feeling Lucky" id="feeling_lucky">
+	    <a id="google_search" href="https://www.google.com/search?site=&source=hp&q=google+search&oq=google+search&gs_l=psy-ab.3..0j0i131k1j0j0i131k1.1556.5244.0.6437.13.13.0.0.0.0.133.1104.12j1.13.0....0...1.1.64.psy-ab..0.13.1102.4DUjmhO9agA" target="_top">Google Search</a>
+	    <a id="feeling_lucky" href="https://www.google.com/search?site=&source=hp&q=feeling+lucky&oq=feeling+lucky&gs_l=psy-ab.3..0l4.839.4537.0.5336.13.13.0.0.0.0.83.974.13.13.0....0...1.1.64.psy-ab..0.13.972...46j0i131k1j0i46k1.f62phIoy6_U" target="_top">I'm Feeling Lucky</a>
 	  </div>	
+
 	<!--featured link-->
 		<p class="hunger">Join us in fighting the famine by <a href="https://www.globalemergencyresponse.org/?utm_source=google&utm_medium=hpp&utm_campaign=famine" class="link">supporting the Hunger Relief Fund</a></p>
+
+		<div class="footer">
+			<span id="span_left">
+				<a href="https://www.google.com/intl/en/ads/?fg=1" id="advertising">Advertising</a>
+
+				<a href="https://www.google.com/services/?fg=1#?modal_active=none" id="business">Business</a>
+
+				<a href="https://www.google.com/intl/en/about/" id="about">About</a>
+			</span>
+
+			<span id="span_right">
+				<a href="https://www.google.com/intl/en/policies/privacy/?fg=1" id="privacy">Privacy</a>
+
+				<a href="https://www.google.com/intl/en/policies/terms/?fg=1" id="terms">Terms</a>
+
+				<a href="https://www.google.com/preferences?hl=en&fg=1" id="settings">Settings</a>
+			</span>
+		</div>
+
 	</body>
     
 </html>
